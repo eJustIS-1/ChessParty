@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import LandingPage from './LandingPage/LandingPage';
 import CreateParty from './CreateRoom/CreateParty';
+import Room from './Room/Room';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/rooms/create' element={<CreateParty />} />
+          <Route path='/rooms/1' element={<Room />} />
         </Routes>
       </div>
     </BrowserRouter>

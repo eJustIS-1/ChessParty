@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './CreateParty.css';
+import { Link } from 'react-router-dom'; 
+
 
 
 function CreateParty() {
@@ -33,7 +35,9 @@ function CreateParty() {
                 <option value="Chess960">Chess960</option>
               </select>
             </label>
-            <button type="submit">Finish creating party</button>
+            <Link to="/room/1">
+              <button type="submit">Finish creating party</button>
+            </Link>
           </form>
         </div>
 
