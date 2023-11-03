@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import './LandingPage.css';
 
 function LandingPage() {
@@ -10,7 +11,9 @@ function LandingPage() {
           <p>Join Chess Party and play chess with your friends. Create a room and challenge, send your URL link and challenge your skills together! </p>
 
           <div className="buttons">
-            <button className="party-button create-party-button">Create Party</button>
+            <Link to="/rooms/create">
+              <button className="party-button create-party-button">Create Party</button>
+            </Link>
             <button className="party-button join-party-button">Join Party</button>
           </div>
         </div>
