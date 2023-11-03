@@ -35,7 +35,7 @@ function CreateParty() {
                 <option value="Chess960">Chess960</option>
               </select>
             </label>
-            <Link to="/room/1">
+            <Link to="/rooms/1">
               <button type="submit">Finish creating party</button>
             </Link>
           </form>

@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import './Room.css';
 import 'chessboard-element';
+import BasicChessBoard from '../Components/ChessBoard/BasicChessBoard.js';
 
 
-import ChessBoard from '../Components/ChessBoard/ChessBoard';
-
-
-
-function Room() {
+export default function Room() {
 
     return(
-        <div id="root"><ChessBoard /></div>
-    )
+        <div className="Room">
+            <BasicChessBoard/>
+        </div>
+
+    );
+    
 }
 
 
-export default Room;
+
+
