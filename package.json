@@ -1,0 +1,23 @@
+{
+  "name": "webchess",
+  "version": "1.0.0",
+  "description": "Web Chess game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eJustIS-1/WebChess.git"
+  },
+  "author": "Enes Bahadir Is",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eJustIS-1/WebChess/issues"
+  },
+  "homepage": "https://github.com/eJustIS-1/WebChess#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "tar": "^6.2.0"
+  }
+}
