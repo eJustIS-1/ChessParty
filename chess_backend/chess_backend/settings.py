@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rooms'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'webchess_database',  # Update with the new database name
         'USER': 'postgres',
-        'PASSWORD': 'B5120620c-',
+        'PASSWORD': 'webchess',
         'HOST': 'localhost',  # or your PostgreSQL host
         'PORT': '5432',       # or your PostgreSQL port
     }
