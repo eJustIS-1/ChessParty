@@ -1,21 +1,21 @@
 {
-  "name": "webchess",
+  "name": "chessparty",
   "version": "1.0.0",
-  "description": "Web Chess game",
+  "description": "Chess Party",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eJustIS-1/WebChess.git"
+    "url": "git+https://github.com/eJustIS-1/ChessParty.git"
   },
   "author": "Enes Bahadir Is",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eJustIS-1/WebChess/issues"
+    "url": "https://github.com/eJustIS-1/ChessParty/issues"
   },
-  "homepage": "https://github.com/eJustIS-1/WebChess#readme",
+  "homepage": "https://github.com/eJustIS-1/ChessParty#readme",
   "dependencies": {
     "create-react-app": "^5.0.1",
     "tar": "^6.2.0"
